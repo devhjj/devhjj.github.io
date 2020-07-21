@@ -88,7 +88,7 @@
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
             <h3 class="h4 mb-2">시스템 운영 경험</h3>
-            <p class="text-muted mb-0">광동제약 계열사 코리아이플랫폼(KeP) 시스템운영팀에서 2년 동안 근무했습니다.<br>B2B e-Commerce 시스템 개발과 운영 업무를 수행했습니다.</p>
+            <p class="text-muted mb-0">광동제약 계열사 코리아e플랫폼(KeP) 시스템운영팀에서 2년 동안 근무했습니다.<br>B2B e-Commerce 시스템 개발과 운영 업무를 수행했습니다.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
@@ -137,11 +137,11 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href="#">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-				코리아이플랫폼(KeP)
+				코리아e플랫폼(KeP)
               </div>
               <div class="project-name">
 				구매대행 시스템
@@ -151,51 +151,54 @@
         </div>
 		<div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
 			<div class="mt-5">
-				<h3 class="h4 mb-2">구매대행 프로젝트</h3>
-				<p>참여 기간 : 18년 02월 05일 ~ 20년 02월 04일</p>
-				<p>구매를 대행하기 위한 시스템<br>Spring framework + oracle 이용 </p>
-				<a class="btn btn-primary btn-xl js-scroll-trigger" href="https://koreab2b.com" style="float:center;">홈페이지</a>
+				<h3 class="h4 mb-2">[코리아e플랫폼] 구매대행 프로젝트</h3>
+				<p>참여 기간 : 18년 02월 ~ 20년 02월</p>
+				<p>- B2B 전용 E-Commerce 시스템<br>- 주문하는 고객사와 물건을 제공하는 협력사에게 구매 플랫폼 제공<br>(Spring + Weblogic + Oracle + Svn + Jenkins 이용) </p>
+				<p class="btn btn-primary btn-xl js-scroll-trigger" onClick="openWin('https://koreab2b.com')">홈페이지</p>
 			</div>
 			<hr class="divider my-2"></hr>
         </div>
         <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 (주)나스텍
               </div>
               <div class="project-name">
-                Plus CCMS
+                Web Card Manager
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
 			<div class="mt-5">
+				<h3 class="h4 mb-2">[(주)나스텍] Plus CCMS 프로젝트</h3>
+				<p>참여 기간 : 16년 09월 ~ 16년 12월</p>
+				<p>- CardManager 툴을 웹 버전으로 마이그레이션<br>- 웹 서비스 개발 및 DB 고가용성 시스템 구축<br>(Spring framework + tomcat + Svn + MariaDB + Galera cluster 이용) </p>
 			</div>
 			<hr class="divider my-2"></hr>
         </div>
         <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Toy project
               </div>
               <div class="project-name">
-                블로그
+                블로그형 게시판
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
 			<div class="mt-5">
-				<h3 class="h4 mb-2">HJJ's Board</h3>
-				<p>참여 기간 : 20년 04월 25일 ~ <p id="nowTimes"></p></p>
+				<h3 class="h4 mb-2">[개인] HJJ's Board</h3>
+				<p>참여 기간 : 20년 05월 ~ <span id="nowDate"></span></p>
 				<p>블로그형 게시판.<br>(spring-boot + bootstrap + mysql + svn 이용)</p>
-				<a class="btn btn-primary btn-xl js-scroll-trigger" href="http://devhjj.ga">홈페이지</a>
-				<a class="btn btn-light btn-xl js-scroll-trigger" href="#">소스 확인하기</a>
+				<p class="btn btn-primary btn-xl js-scroll-trigger" onClick="openWin('http://devhjj.ga')">홈페이지</p>
+				<p class="btn btn-light btn-xl js-scroll-trigger" onClick="openWin('https://github.com/devhjj')">소스 확인하기</a>
 			</div>
 			<hr class="divider my-2"></hr>
         </div>
@@ -203,25 +206,25 @@
     </div>
   </section>
   <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <section class="page-section bg-dark" id="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 id="nowTimes"></h2>
-          <h2 class="mt-0">현재 구직 중입니다!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">저에 대해 더 알고 싶으시면 아래의 Linkedin 프로필 링크로 확인해주세요.<br>궁금한 사항이 있으면 언제든 메일로 연락주세요!</p>
+          <h2 class="text-white mt-0" id="nowTimes"></h2>
+          <h2 class="text-white mt-0">현재 구직 중입니다!</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">저에 대해 더 알고 싶으시면 아래의 Linkedin 프로필 링크로 확인해주세요.<br>궁금한 사항이 있으면 언제든 메일로 연락주세요!</p>
         </div>
       </div>
       <div class="row justify-content-center">
       	<div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
         	<a class="d-block" href="https://www.linkedin.com/in/younghun-kim-216730191" target="_blank"><i class="fab fa-linkedin fa-3x mb-3 text-muted"></i></a>
-          	<a class="d-block" href="https://www.linkedin.com/in/younghun-kim-216730191" target="_blank">Linkedin 프로필 확인</a>
+          	<a class="text-white" href="https://www.linkedin.com/in/younghun-kim-216730191" target="_blank">Linkedin 프로필 확인</a>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           	<a class="d-block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hjjdev@gmail.com" target="_blank"><i class="fas fa-envelope fa-3x mb-3 text-muted"></i></a>
           	<!-- Make sure to change the email address in anchor text AND the link below! -->
-          	<a class="d-block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hjjdev@gmail.com" target="_blank">hjjdev@gmail.com</a>
+          	<a class="text-white" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hjjdev@gmail.com" target="_blank">hjjdev@gmail.com</a>
         </div>
       </div>
     </div>
@@ -264,6 +267,8 @@
 		const sec = nowDate.getSeconds();
 		document.getElementById("nowTimes").innerHTML = 
                   year + "년 " + addzero(month) + "월 " + addzero(date) + "일 &nbsp;" + hour + ":" + addzero(min) + ":" + addzero(sec);
+		document.getElementById("nowDate").innerHTML = 
+                  year + "년 " + addzero(month) + "월 " + addzero(date) + "일";		  
 	}
 
     // 1자리수의 숫자인 경우 앞에 0을 붙여준다.
@@ -271,6 +276,11 @@
 		if(num < 10) { num = "0" + num; }
  		return num;
 	}
+	
+	// window 새창 열기
+	function openWin(url){  
+		window.open(url, "_blank");  
+	}  
   </script>
 
 </body>

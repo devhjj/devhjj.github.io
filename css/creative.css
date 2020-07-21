@@ -9669,6 +9669,10 @@ header.masthead h1 {
   font-size: 2.25rem;
 }
 
+header.masthead h3 {
+  font-size: 1.5rem;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
