@@ -111,7 +111,7 @@
           <div class="mt-5">
             <i class="fas fa-comments fa-4x text-primary mb-4"></i>
             <h3 class="h4 mb-2">소통이 중요</h3>
-            <p class="text-muted mb-0">책을 읽고 사람들과 생각나누는 것을 좋아합니다.<br>현재 60명 이상이 활동하는 모임에서 운영진으로 활동하면서 모임을 계획하고, 회원들을 관리하고 있습니다.</p>
+            <p class="text-muted mb-0">책을 읽고 사람들과 생각나누는 것을 좋아합니다.<br>현재 100명 이상이 활동하는 모임에서 운영진으로 활동하면서 모임을 계획하고, 회원들을 관리하고 있습니다.</p>
 			<a href="http://dodam.ga" target="_blank">소모임 도담독담 소개</a>
           </div>
         </div>
@@ -154,7 +154,7 @@
 			<div class="mt-5">
 				<h3 class="h4 mb-2">[코리아e플랫폼] 구매대행 프로젝트</h3>
 				<p>참여 기간 : 18년 02월 ~ 20년 02월</p>
-				<p>- B2B 전용 E-Commerce 시스템<br>- 주문하는 고객사와 물건을 제공하는 협력사에게 구매 플랫폼 제공<br>(Spring + Weblogic + Oracle + Svn + Jenkins 이용) </p>
+				<p>- B2B 전용 E-Commerce 시스템<br>- 주문하는 고객사와 물건을 제공하는 협력사에게 구매 플랫폼 제공<br>(Spring framework + Weblogic + Oracle + Svn + Jenkins 이용) </p>
 				<p class="btn btn-primary btn-xl js-scroll-trigger" onClick="openWin('https://koreab2b.com')">홈페이지</p>
 			</div>
 			<hr class="divider my-2"></hr>
@@ -181,7 +181,7 @@
 			<hr class="divider my-2"></hr>
         </div>
         <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.gif">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -196,15 +196,17 @@
         <div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
 			<div class="mt-5">
 				<h3 class="h4 mb-2">[개인] HJJ's Board</h3>
-				<p>참여 기간 : 20년 04월 ~ 20년 6월</p>
-				<p>블로그형 게시판.<br>(spring-boot + bootstrap + mysql + svn 이용)</p>
+				<p>참여 기간 : 20년 04월 ~ <span id="nowDate"></span></p>
+				<p>블로그형 게시판
+				<br>기능: Markdown 적용, 메일로 회원가입, csrf 적용, REST 방식의 댓글
+				<br>(spring boot 2.x + bootstrap + mariadb(mysql) + javascript + git + Raspberry Pi 이용)</p>
 				<p class="btn btn-primary btn-xl js-scroll-trigger" onClick="openWin('http://devhjj.ga')">홈페이지</p>
 				<p class="btn btn-light btn-xl js-scroll-trigger" onClick="openWin('https://github.com/devhjj/hjjsboard')">소스 확인</a>
 			</div>
 			<hr class="divider my-2"></hr>
         </div>
 		<div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.PNG">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.png">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -219,9 +221,35 @@
         <div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
 			<div class="mt-5">
 				<h3 class="h4 mb-2">[개인] HJJ's Log</h3>
-				<p>참여 기간 : 20년 08월 ~ <span id="nowDate"></span></p>
-				<p>SNS 스타일의 게시판<br>(spring-boot + bootstrap + mysql + svn 이용)</p>
+				<p>참여 기간 : 20년 08월 ~ 20년 09월</p>
+				<p>SNS 스타일의 게시판
+				<br>HJJ's Board에서 SNS 스타일로 변경, REST 방식의 게시글과 댓글
+				<br>(spring boot 2.x + bootstrap + mariadb(mysql) + javascript + svn + Raspberry Pi 이용)</p>
 				<p class="btn btn-primary btn-xl js-scroll-trigger" onClick="openWin('http://112.212.106.123:9999/log')">홈페이지</p>
+			</div>
+			<hr class="divider my-2"></hr>
+        </div>
+		<div class="col-lg-6 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.gif">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.png" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Toy project
+              </div>
+              <div class="project-name">
+                Hospital EMR System
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-5 col-sm-5" style="margin-left:4%;margin-right:4%">
+			<div class="mt-5">
+				<h3 class="h4 mb-2">[교육 프로젝트] HES(Hospital EMR System)</h3>
+				<p>참여 기간 : 21년 01월 ~ 21년 02월</p>
+				<p>- 의사가 입력한 의료정보 전산화
+				<br>- 진료 예약, 조회, 수정 등 병원시스템의 전반적인 관리 기능
+				<br>(spring 3.x + bootstrap + oracle + git 이용)</p>
+				<p class="btn btn-light btn-xl js-scroll-trigger" onClick="openWin('https://github.com/devhjj/HES')">소스 확인</a>
 			</div>
 			<hr class="divider my-2"></hr>
         </div>
